@@ -2,7 +2,6 @@
 
 A modern and responsive admin panel built with **ReactJS**, designed to help businesses and platforms manage users, data, and workflows efficiently.
 
----
 
 ## 🚀 Main Features
 
