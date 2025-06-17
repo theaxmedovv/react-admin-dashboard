@@ -1,54 +1,56 @@
-React Admin Dashboard
+# React Admin Dashboard
 
-A modern and functional admin panel built with ReactJS, designed to simplify administrative control for various businesses or applications.
+A modern and responsive admin panel built with **ReactJS**, designed to help businesses and platforms manage users, data, and workflows efficiently.
 
-Main Features
+---
 
-- Dashboard – Overview with stats and recent transactions  
-- Team – Manage team members and admin chat  
-- Customer List – View and manage customer information  
-- Invoices – View and create billing data  
-- Merchant List – Manage merchant data  
-- View Customer – Detailed customer profiles  
-- Calendar – Plan and track events  
-- Charts – Bar, Pie, Line, and Geo visualizations  
-- Profile, FAQ, Verification, Messaging – User management and support tools  
-- Cashback – Monitor cashback systems  
+## 🚀 Main Features
 
-Screenshots
+- **Dashboard** – Overview of analytics and key metrics  
+- **Team** – Manage team members and admin chat  
+- **Customer List** – View and manage customer data  
+- **View Customer** – See detailed customer profiles  
+- **Invoices** – View and generate invoice records  
+- **Merchant List** – Manage and monitor merchant data  
+- **Calendar** – Track schedules and events  
+- **Charts** – Bar, Pie, Line, and Geo charts for analytics  
+- **User Tools** – Profile, FAQ, Verification, Messaging  
+- **Cashback** – View and track cashback transactions
 
-Dashboard  
-![Dashboard](https://github.com/theaxmedovv/react-admin-dashboard/blob/main/Screenshot%202025-06-17%20103049.png?raw=true)
+---
 
-Contacts  
-[screenshot](screenshots/contacts.png)
+## 📸 Screenshots
 
-Verification Requests  
-[screenshot](screenshots/verification.png)
+### 📊 1. Dashboard  
+![Dashboard](https://github.com/theaxmedovv/react-admin-dashboard/blob/main/Screenshot%202025-06-17%20102922.png?raw=true)
 
-Billing Information  
-[screenshot](screenshots/billing.png)
+---
 
-Getting Started
+### 👤 2. View Customer  
+![View Customer](https://github.com/theaxmedovv/react-admin-dashboard/blob/main/Screenshot%202025-06-17%20102937.png?raw=true)
 
-Requirements  
-Make sure Node.js and npm are installed
+---
 
-Installation
+### ✅ 3. Verification  
+![Verification](https://github.com/theaxmedovv/react-admin-dashboard/blob/main/Screenshot%202025-06-17%20103049.png?raw=true)
 
-git clone https://github.com/theaxmedovv/react-admin-dashboard.git  
-cd react-admin-dashboard  
-npm install  
+---
+
+### 🛍️ 4. Merchant List  
+![Merchant List](https://github.com/theaxmedovv/react-admin-dashboard/blob/main/Screenshot%202025-06-17%20105024.png?raw=true)
+
+---
+
+## ⚙️ Getting Started
+
+### ✅ Requirements
+- Node.js (v14 or higher)
+- npm
+
+### 🛠️ Installation
+
+```bash
+git clone https://github.com/theaxmedovv/react-admin-dashboard.git
+cd react-admin-dashboard
+npm install
 npm start
-
-Technologies
-
-ReactJS  
-Material UI (MUI)  
-FullCalendar  
-Nivo Charts  
-Redux Toolkit
-
-Author
-
-Made by theaxmedovv (https://github.com/theaxmedovv)
