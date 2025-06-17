@@ -1,0 +1,115 @@
+.view-customer {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background for contrast */
+}
+
+.customer-details {
+  display: flex;
+  flex-wrap: wrap; /* Ensure responsive layout */
+  gap: 20px;
+  color: #333;
+}
+
+.customer-card, .billing-info, .email-send {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  flex: 1;
+  width: 150px; /* Ensure minimum width for each section */
+
+}
+
+.customer-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.customer-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.customer-name {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.customer-position {
+  color: #888;
+  margin: 5px 0;
+}
+
+.customer-info p, 
+.billing-info p,
+.email-send p {
+  border-radius: 6px;
+
+}
+
+.status {
+  color: #28a745;
+}
+
+.customer-actions, .billing-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.other-actions {
+  margin-top: 20px;
+}
+
+.other-actions button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.other-actions .warning {
+  color: #dc3545;
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+.other-actions{
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  flex: 1;
+  width: 250px;
+  color: black;
+}
+
+

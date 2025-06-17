@@ -1,0 +1,139 @@
+/* Overall chat application layout */
+.chat-app {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar containing the list of chats */
+.chat-sidebar {
+  width: 25%;
+  border-right: 1px solid #DADADA;
+  overflow-y: auto;
+}
+
+/* Main content area including chat window and input */
+.chat-content {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Chat list styles */
+.chat-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* Individual chat item styles */
+.chat-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Avatar styling for chat items */
+.chat-item-avatar {
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Information section in chat items */
+.chat-item-info {
+  flex-grow: 1;
+}
+
+/* Name styling within chat items */
+.chat-item-name {
+  font-weight: bold;
+}
+
+/* Date styling within chat items */
+.chat-item-date {
+  font-size: 12px;
+  color: #888;
+}
+
+/* Chat window styling */
+.chat-window {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #F4F7FA;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Align messages to the bottom */
+  overflow-y: auto;
+}
+
+/* Message list container in the chat window */
+.message-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between messages */
+}
+
+/* Individual message styling */
+.message-item {
+  padding: 10px;
+  border-radius: 5px;
+  color: #333;
+  max-width: 70%; /* Adjust width as needed */
+  word-wrap: break-word; /* Handle long words or URLs */
+  position: relative;
+}
+
+/* User's messages on the left */
+.user-message {
+  background-color: #ffffff;
+  align-self: flex-start; /* Align to the left */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact's messages on the right */
+.contact-message {
+  background-color: #007BFF;
+  color: white;
+  align-self: flex-end; /* Align to the right */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Message input area styling */
+.message-input {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #DADADA;
+  background-color: white;
+  margin-bottom: 70px;
+  bottom: 0; /* Stick to the bottom */
+}
+
+/* Input field styling for typing messages */
+.message-input input {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #F4F7FA;
+  font-size: 16px;
+}
+
+/* Send button styling */
+.message-input .send-button {
+  background-color: #007BFF;
+  border: none;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.chat-item{
+
+}
