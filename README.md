@@ -43,7 +43,7 @@
 ## ⚙️ Getting Started
 
 ### ✅ Requirements
-- Node.js (v14 or higher)
+- Node.js (version -10.9.2)
 - npm
 
 ### 🛠️ Installation
