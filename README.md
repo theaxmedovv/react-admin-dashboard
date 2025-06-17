@@ -18,7 +18,7 @@ Main Features
 Screenshots
 
 Dashboard  
-[screenshot](screenshots/dashboard.png)
+[[screenshot](screenshots/dashboard.png)](https://github.com/theaxmedovv/react-admin-dashboard/blob/main/Screenshot%202025-06-17%20103049.png?raw=true)
 
 Contacts  
 [screenshot](screenshots/contacts.png)
